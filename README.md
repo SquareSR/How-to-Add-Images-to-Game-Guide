@@ -13,14 +13,15 @@
 2. Example Folder Structure:
 
 ```
-/my-game-tutorial-repo
+/speedrun-routes-repo
+    /docs
     /images
         level1-map.png
         level2-map.png
     README.md
 ```
 
-In this case, the image in `level1-map.png` would be referenced in `README.md` like this:
+In this case, the image in `level1-map.png` would be referenced in any `README.md` from docs like this:
 ```markdown
 ![Map of Level 1](/images/level1-map.png)
 ```
@@ -59,10 +60,20 @@ This approach works well in GitHub README files, as GitHub supports both Markdow
 
 Examples:
 
+```
 1. Simple clickable link: [Here is a link to the F36F37 jpeg that is clickable](/images/F3637.jpeg)
 2. HTML Image   
    ![Here is the F36F37 jpeg that is viewable in full size](/images/F3637.jpeg)
 4. Markdown Image   
-   <img src="/images/F3637.jpeg">
+   <img src="/images/F3637.jpeg" alt="F3637 Map of Moon">
 5. Here is a way to show the map and also adjust the size   
-    <img src="/images/F3637.jpeg" width="600">
+    <img src="/images/F3637.jpeg" alt="F3637 Map of Moon" width="600">
+```
+
+1. Simple clickable link: [Here is a link to the F36F37 jpeg that is clickable](/images/F3637.jpeg)
+2. HTML Image   
+   ![Here is the F36F37 jpeg that is viewable in full size](/images/F3637.jpeg)
+4. Markdown Image   
+   <img src="/images/F3637.jpeg" alt="F3637 Map of Moon">
+5. Here is a way to show the map and also adjust the size   
+    <img src="/images/F3637.jpeg" alt="F3637 Map of Moon" width="600">
