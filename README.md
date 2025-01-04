@@ -22,7 +22,7 @@
 
 In this case, the image in `level1-map.png` would be referenced in `README.md` like this:
 ```markdown
-![Map of Level 1](images/level1-map.png)
+![Map of Level 1](/images/level1-map.png)
 ```
 
 ## What if your image is placed in the guide, but is not sized appropriately? 
@@ -30,16 +30,16 @@ In this case, the image in `level1-map.png` would be referenced in `README.md` l
 - To control the **height** and **width** of an image within a Markdown file (like `README.md`), you can't use the standard Markdown syntax alone (which doesn't provide options for dimensions). 
 - However, you can still achieve this by embedding HTML directly within the Markdown.
 
-### Solution: Use HTML `<img>` Tag in Markdown
+### Solution: Use HTML `<img>` Tag in Markdown, but be sure to use the Relative Path from the Root Directory since we are keeping all images in one image folder at the root.
 
 You can use the `<img>` HTML tag, which allows you to specify the `width`, `height`, or both. Here's the modified code:
 
 ```markdown
-<img src="images/level1-map.png" alt="Map of Level 1" width="600" height="400">
+<img src="/images/level1-map.png" alt="Map of Level 1" width="600" height="400">
 ```
 
 ### Explanation:
-- `src="images/level1-map.png"`: Specifies the path to your image (same as the Markdown format).
+- `src="/images/level1-map.png"`: Specifies the path to your image (same as the Markdown format).
 - `alt="Map of Level 1"`: Provides alternative text for the image if it fails to load.
 - `width="600"`: Sets the width of the image to 600 pixels (you can adjust the value as needed).
 - `height="400"`: Sets the height of the image to 400 pixels (you can also adjust this value).
@@ -49,7 +49,7 @@ You can use the `<img>` HTML tag, which allows you to specify the `width`, `heig
 - If you're unsure about the aspect ratio, it's usually best to specify only one dimension (either width or height) and let the other adjust automatically.
   
 ```markdown
-<img src="images/level1-map.png" alt="Map of Level 1" width="600">
+<img src="/images/level1-map.png" alt="Map of Level 1" width="600">
 ```
 
 ### Why Use HTML in Markdown?
@@ -59,10 +59,10 @@ This approach works well in GitHub README files, as GitHub supports both Markdow
 
 Examples:
 
-1. Simple clickable link: [Here is a link to the F36F37 jpeg that is clickable](images/F3637.jpeg)
+1. Simple clickable link: [Here is a link to the F36F37 jpeg that is clickable](/images/F3637.jpeg)
 2. HTML Image   
-   ![Here is the F36F37 jpeg that is viewable in full size](images/F3637.jpeg)
+   ![Here is the F36F37 jpeg that is viewable in full size](/images/F3637.jpeg)
 4. Markdown Image   
-   <img src="images/F3637.jpeg">
+   <img src="/images/F3637.jpeg">
 5. Here is a way to show the map and also adjust the size   
-    <img src="images/F3637.jpeg" width="600">
+    <img src="/images/F3637.jpeg" width="600">
