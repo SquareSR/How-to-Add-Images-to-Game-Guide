@@ -1,1 +1,1 @@
-<img src="/gen1/images/F3637.jpeg" alt="F3637 Map of Moon" width="600">
+<img src="/gen1/images/ForestPaths.png" alt="Forest Paths" width="600">
