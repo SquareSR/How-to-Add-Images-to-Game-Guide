@@ -3,6 +3,11 @@
 Testing if this works to made the F3637 image here:  
    <img src="../../../../../../images/F3637.jpeg" alt="Map of Moon F3637" width="400">
 
+- test if this simpler option works:   
+
+<img src="/images/F3637.jpeg" alt="Map of Moon F3637" width="400">
+
+
 **FAQ: [Please read the FAQ before learning :)](../../resources/faq.md)**
 
 ### Manip quick reference
