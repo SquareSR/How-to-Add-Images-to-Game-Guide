@@ -104,7 +104,7 @@ This approach works well in GitHub README files, as GitHub supports both Markdow
 
 Examples:
 
-1. [Here is a link to the F36F37 jpeg that is clickable](images/F36F37.jpeg)
-2. ![Here is the F36F37 jpeg that is viewable in full size](images/F36F37.jpeg)
-3. Here is another way to show to map <img src="images/F36F37.jpeg">
-4. Here is a way to show the map and also adjust the size <img src="images/F36F37.jpeg" width="600">
+1. [Here is a link to the F36F37 jpeg that is clickable](images/F3637.jpeg)
+2. ![Here is the F36F37 jpeg that is viewable in full size](images/F3637.jpeg)
+3. Here is another way to show to map <img src="images/F3637.jpeg">
+4. Here is a way to show the map and also adjust the size <img src="images/F3637.jpeg" width="600">
