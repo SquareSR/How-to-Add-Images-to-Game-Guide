@@ -101,3 +101,10 @@ This will scale the image to 800 pixels in width and 533 pixels in height, keepi
 While Markdown is great for simple formatting, embedding HTML allows you to have more control over your content's layout, such as adjusting the size of images directly within the document.
 
 This approach works well in GitHub README files, as GitHub supports both Markdown and HTML together.
+
+Examples:
+
+1. [Here is a link to the F36F37 jpeg that is clickable](images/F36F37.jpeg)
+2. ![Here is the F36F37 jpeg that is viewable in full size](images/F36F37.jpeg)
+3. Here is another way to show to map <img src="images/F36F37.jpeg">
+4. Here is a way to show the map and also adjust the size <img src="images/F36F37.jpeg" width="600">
